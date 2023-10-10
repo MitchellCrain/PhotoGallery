@@ -1,0 +1,17 @@
+Display
+
+<Display>
+    BoxLayout:
+        orientation: "vertical"
+        Label:
+            text: "Loaf of Bread"
+        Image:
+            id: image
+            source: root.display_image()
+            #source: "SpongebobChair.jpg"
+            size_hint: 1, 6
+        BoxLayout:
+            Button:
+                text: "<<<"
+            Button
+                text: ">>>"
